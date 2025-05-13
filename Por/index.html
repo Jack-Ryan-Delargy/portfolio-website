@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🕹️ DevBoy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar">
+    <h1>🕹️ DevBoy</h1>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#showcase">Showcase</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="theme-toggle">🌙</button></li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <section class="intro-section">
+      <div class="intro-grid">
+        <div id="about" class="about">
+          <div class="card">
+            <img src="https://via.placeholder.com/100" alt="Jack Ryan Delargy avatar" class="avatar">
+            <h2>Jack Ryan Delargy</h2>
+            <p>Full-Stack Engineer • It Consultant • Pokémon Enthusiast</p>
+            <p>
+              <a href="https://github.com">GitHub</a> |
+              <a href="https://linkedin.com">LinkedIn</a> |
+              <a href="mailto:example@email.com">Email</a>
+            </p>
+          </div>
+        </div>
+
+        <div id="showcase" class="gameboy-showcase loading">
+          <div class="gameboy-container">
+            <div class="gameboy-device">
+              <div class="screen">
+                <div id="screen-title"></div>
+                <div id="screen-desc"></div>
+              </div>
+              <div class="controls">
+                <button id="up" aria-label="Previous project">▲</button>
+                <button id="down" aria-label="Next project">▼</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="project-list">
+      <h2>Projects</h2>
+      <div class="project-grid"></div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Get in Touch</h2>
+      <p>Have a project in mind or want to chat? Let’s connect.</p>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 Jack Ryan Delargy — All Rights Reserved
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
