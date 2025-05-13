@@ -1,0 +1,8 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore node_modules (for future dependencies)
+node_modules/
+
+# Ignore sensitive files
+*.env
