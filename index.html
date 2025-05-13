@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🕹️ DevBoy</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">🕹️ DevBoy</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#showcase">Showcase</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="theme-toggle">🌙</button></li>
+    </ul>
+  </nav>
+
+  <main class="main-content">
+    <section class="intro-section" id="about">
+      <div class="intro-grid">
+        <div class="about">
+          <div class="card">
+            <img src="https://via.placeholder.com/100" alt="Avatar" class="avatar">
+            <h2>Jack Ryan Delargy</h2>
+            <p>Full-Stack Engineer • It Consultant • Pokémon Enthusiast</p>
+            <div class="project-links">
+              <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
+              <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a> |
+              <a href="mailto:your.email@example.com">Email</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="gameboy-showcase loading" id="showcase">
+          <div class="gameboy-container">
+            <div class="gameboy-device">
+              <div class="screen">
+                <div id="screen-title"></div>
+                <div id="screen-desc"></div>
+              </div>
+              <div class="controls">
+                <button id="up">▲</button>
+                <button id="down">▼</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-list" id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid"></div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Get in Touch</h2>
+      <p>Have a project in mind or want to chat? Let’s connect.</p>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-socials">
+        <a href="https://instagram.com/yourusername" target="_blank">📸 Instagram</a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank">💼 LinkedIn</a>
+        <a href="https://github.com/yourusername" target="_blank">💻 GitHub</a>
+      </div>
+      <div class="footer-contact">
+        <p>📞 <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+        <p>📧 <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+      </div>
+      <div class="footer-copyright">
+        © 2025 Jack Ryan Delargy — All Rights Reserved
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
